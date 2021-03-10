@@ -25,6 +25,7 @@ nmap scanme.nmap.org -p80
 nmap scanme.nmap.org -p443
 ```
 ![Listagem de portas especificas](https://raw.githubusercontent.com/biridiz/Tutorial-nmap/main/images/lista-portas.png)
+
 ------------------------------------------------------------------------------------------------------------
 Listando portas:
 ```
@@ -32,6 +33,7 @@ nmap scanme.nmap.org
 ```
 
 ![Listagem de portas especificas](https://raw.githubusercontent.com/biridiz/Tutorial-nmap/main/images/lista.png)
+
 ------------------------------------------------------------------------------------------------------------
 Identificando o sistema operacional:
 ```
@@ -39,6 +41,7 @@ nmap -O scanme.nmap.org
 ```
 
 ![Listagem de portas especificas](https://raw.githubusercontent.com/biridiz/Tutorial-nmap/main/images/os.png)
+
 ------------------------------------------------------------------------------------------------------------
 Detectando versões:
 ```
@@ -46,6 +49,7 @@ nmap -sV scanme.nmap.org
 ```
 
 ![Listagem de portas especificas](https://raw.githubusercontent.com/biridiz/Tutorial-nmap/main/images/versoes.png)
+
 ------------------------------------------------------------------------------------------------------------
 Filtrando por protocolos:
 
@@ -59,6 +63,7 @@ nmap -sU scanme.nmap.org
 ```
 
 ![Listagem de portas especificas](https://raw.githubusercontent.com/biridiz/Tutorial-nmap/main/images/tcp-udp.png)
+
 ------------------------------------------------------------------------------------------------------------
 Mostrando rotas e interfaces:
 ```
@@ -66,5 +71,6 @@ nmap -iflist
 ```
 
 ![Listagem de portas especificas](https://raw.githubusercontent.com/biridiz/Tutorial-nmap/main/images/rotas.png)
+
 ------------------------------------------------------------------------------------------------------------
 
